@@ -1,75 +1,49 @@
-# VITTAS
+# VITTAS 2.0 — Plataforma de Integração e Acesso à Saúde
 
-Plataforma digital voltada à organização e acompanhamento do atendimento na rede pública de saúde.
+## Sobre o Projeto
+O **VITTAS** é uma plataforma digital de integração, acesso e acompanhamento de serviços de saúde, com foco no ecossistema privado e suplementar. 
 
-O VITTAS tem como foco inicial as **Unidades Básicas de Saúde (UBSs)** e **UPAs/Pronto-Atendimentos**, buscando melhorar o acesso à informação, aumentar a previsibilidade para o cidadão e apoiar a gestão pública.
+O objetivo do projeto é conectar pacientes, instituições de saúde (clínicas, hospitais e pronto-atendimentos particulares), profissionais e operadoras de planos de saúde, centralizando informações sobre disponibilidade e oferta de serviços. 
 
-## Objetivo
-
-Centralizar e apresentar informações da rede pública de saúde de forma simples e acessível, integrando dados provenientes dos sistemas já utilizados pelas unidades.
-
-## Principais funcionalidades
-
-* Consulta de UBSs e UPAs;
-* Visualização de serviços, horários e profissionais;
-* Agendamento de serviços que permitam acesso direto;
-* Consulta da disponibilidade de medicamentos;
-* Estimativa de tempo de espera;
-* Informações sobre a demanda das unidades;
-* Recomendação de unidades alternativas;
-* Pré-avaliação orientativa;
-* Notificações e atualizações;
-* Painel de gestão com indicadores;
-* Integração com sistemas externos.
-
-## Pré-avaliação
-
-A pré-avaliação do VITTAS possui caráter exclusivamente orientativo.
-
-O sistema **não realiza diagnóstico e não substitui a classificação de risco realizada por profissionais de saúde**. As informações coletadas poderão ser utilizadas como apoio à equipe responsável pelo atendimento.
-
-## Integração
-
-O VITTAS não pretende substituir os sistemas já utilizados pela rede pública de saúde.
-
-A proposta é funcionar como uma camada integrada entre:
-
-**Sistemas da rede pública → VITTAS → Cidadãos, profissionais e gestores**
-
-## Escopo inicial
-
-O projeto será inicialmente direcionado para:
-
-* Unidades Básicas de Saúde;
-* UPAs e Pronto-Atendimentos;
-* Agendamentos de serviços de acesso direto;
-* Medicamentos;
-* Filas e estimativas de espera;
-* Gestão e indicadores.
-
-## Expansão futura
-
-A arquitetura do projeto será pensada para permitir expansão futura para:
-
-* Hospitais;
-* Consultas especializadas;
-* Exames;
-* Cirurgias;
-* Internações;
-* Procedimentos regulados;
-* Acompanhamento de filas e solicitações.
-
-## Público-alvo
-
-* Cidadãos que utilizam o SUS;
-* Profissionais da rede pública de saúde;
-* Gestores de saúde;
-* Prefeituras e Secretarias de Saúde.
-
-## Sobre o projeto
-
-Projeto acadêmico desenvolvido no curso de **Análise e Desenvolvimento de Sistemas**, com foco em levantamento de requisitos, modelagem de negócio, desenvolvimento de software, integração de sistemas e aplicação de tecnologia em problemas reais da saúde pública.
+O VITTAS atua como uma camada intermediária de acesso, sem o objetivo de substituir os sistemas de gestão utilizados pelas instituições participantes.
 
 ---
 
-**VITTAS — Mais informação. Mais previsibilidade. Mais acesso.**
+## Público-Alvo do MVP
+* **Pacientes:** Usuários que pesquisam serviços de saúde, realizam e acompanham agendamentos, e consultam receitas disponibilizadas.
+* **Instituições de Saúde:** Clínicas, hospitais e unidades de pronto-atendimento privadas.
+* **Administradores:** Responsáveis pelo gerenciamento da plataforma, instituições, permissões e usuários.
+
+---
+
+## Principais Funcionalidades (Escopo do MVP)
+
+* **Busca e Consulta de Serviços:** Pesquisa de instituições, profissionais, especialidades, convênios aceitos e horários por localização ou necessidade.
+* **Agendamento e Agenda:** Realização, solicitação, reagendamento e cancelamento de consultas/serviços pelo paciente, além da gestão de horários e bloqueios pela instituição.
+* **Acompanhamento de Atendimentos:** Visualização do status dos agendamentos e históricos de atendimentos realizados.
+* **Consulta de Receitas:** Visualização e histórico de receitas médicas disponibilizadas por instituições ou sistemas integrados (sem emissão ou prescrição direta no VITTAS).
+* **Notificações:** Avisos sobre confirmação, cancelamento, alteração de horário e lembretes via e-mail e notificações internas.
+* **Portal da Instituição & Painel Administrativo:** Áreas exclusivas para gestão cadastral, profissionais, agendas, permissões e operação do sistema.
+* **Camada de Interoperabilidade:** API REST para intercâmbio de dados entre o VITTAS e sistemas externos/hospitalares.
+
+---
+
+## O que NÃO faz parte do MVP (Fora de Escopo)
+Para manter o limite de desenvolvimento planejado (aprox. 1.000h), os seguintes recursos **não** estão incluídos nesta versão inicial:
+* **Gestão Clínica:** Prontuário eletrônico completo, emissão/alteração de receitas, laudos ou prescrições.
+* **Inteligência Artificial Clínica:** Nenhuma IA para diagnóstico, triagem, prescrição ou decisão médica.
+* **Telemedicina:** Sem módulo de vídeo chamadas ou gestão de teleconsultas próprias.
+* **Operações de Emergência:** Rastreamento ou roteamento de ambulâncias e integração em tempo real com equipes de resgate.
+* **Financeiro:** Cobranças, faturamento, processamento de convênios ou pagamento online.
+
+---
+
+## Integração e Arquitetura
+O sistema é composto por:
+* Frontend Web
+* Backend & API REST
+* Banco de Dados
+* Módulos específicos: Paciente, Instituição e Administração
+* Camada de Integração de dados externos
+
+**VITTAS**
