@@ -1,4 +1,5 @@
 # VITTAS 2.0 — Plataforma de Integração e Acesso à Saúde
+Link Jira https://vittas.atlassian.net/jira/software/c/projects/VITTAS/boards/4/backlog
 
 ## Sobre o Projeto
 O **VITTAS** é uma plataforma digital de integração, acesso e acompanhamento de serviços de saúde, com foco no ecossistema privado e suplementar. 
