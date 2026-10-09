@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram id="vittas-classes6-revisado" name="Diagrama 6 - Classes">
+    <mxGraphModel dx="1640" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1640" pageHeight="930" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame" value="" style="rounded=0;fillColor=none;strokeColor=#000000;strokeWidth=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18" y="18" width="1604" height="894" />
+        </mxCell>
+        <mxCell id="uml-label" value="class" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="27" y="25" width="65" height="28" />
+        </mxCell>
+        <mxCell id="title" value="Diagrama 6 — Notificações e Integrações" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=26;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="115" y="31" width="1120" height="34" />
+        </mxCell>
+        <mxCell id="ucs" value="UC17 • UC19 • UC20" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="115" y="66" width="800" height="25" />
+        </mxCell>
+        <mxCell id="heranca" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.8;fontFamily=DejaVu Sans;fontSize=17;endArrow=none;startArrow=none;exitX=0;exitY=0.3418803418803419;exitDx=0;exitDy=0;entryX=1;entryY=0.21505376344086022;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=20;" edge="1" parent="1" source="administrador" target="usuario">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="recebe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.8;fontFamily=DejaVu Sans;fontSize=17;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="usuario" target="notificacao">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="recebe-label0" value="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="163" y="338" width="150" height="24" />
+        </mxCell>
+        <mxCell id="recebe-label1" value="recebe" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="232" y="396" width="150" height="24" />
+        </mxCell>
+        <mxCell id="recebe-label2" value="0..*" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="154" y="457" width="150" height="24" />
+        </mxCell>
+        <mxCell id="consulta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.8;fontFamily=DejaVu Sans;fontSize=17;endArrow=none;startArrow=none;exitX=1;exitY=0.7526881720430108;exitDx=0;exitDy=0;entryX=0;entryY=0.24922118380062305;entryDx=0;entryDy=0;dashed=1;dashPattern=8 6;endArrow=open;endFill=0;endSize=12;" edge="1" parent="1" source="usuario" target="integracao">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="510" y="285" />
+              <mxPoint x="510" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="consulta-label0" value="consulta" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="475" y="377" width="150" height="24" />
+        </mxCell>
+        <mxCell id="configura" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.8;fontFamily=DejaVu Sans;fontSize=17;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4375;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 6;endArrow=open;endFill=0;endSize=12;" edge="1" parent="1" source="administrador" target="integracao">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="configura-label0" value="configura" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="793" y="327" width="150" height="24" />
+        </mxCell>
+        <mxCell id="registra" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.8;fontFamily=DejaVu Sans;fontSize=17;endArrow=none;startArrow=none;exitX=1;exitY=0.18691588785046728;exitDx=0;exitDy=0;entryX=0;entryY=0.5416666666666666;entryDx=0;entryDy=0;" edge="1" parent="1" source="integracao" target="operacao">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1120" y="485" />
+              <mxPoint x="1120" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="registra-label0" value="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="973" y="451" width="150" height="24" />
+        </mxCell>
+        <mxCell id="registra-label1" value="registra" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1092" y="367" width="150" height="24" />
+        </mxCell>
+        <mxCell id="registra-label2" value="0..*" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1103" y="210" width="150" height="24" />
+        </mxCell>
+        <mxCell id="comunica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.8;fontFamily=DejaVu Sans;fontSize=17;endArrow=none;startArrow=none;exitX=1;exitY=0.7009345794392523;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="integracao" target="sistema">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="comunica-label0" value="0..*" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="983" y="656" width="150" height="24" />
+        </mxCell>
+        <mxCell id="comunica-label1" value="comunica com" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1045" y="615" width="150" height="24" />
+        </mxCell>
+        <mxCell id="comunica-label2" value="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;align=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1115" y="656" width="150" height="24" />
+        </mxCell>
+        <mxCell id="usuario" value="Usuario" style="swimlane;html=0;startSize=42;horizontal=1;rounded=0;fillColor=#FFFFCC;swimlaneFillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="90" y="145" width="340" height="186" />
+        </mxCell>
+        <mxCell id="usuario-attrs" value="- id: Long&#10;- nome: String&#10;- email: String" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="usuario">
+          <mxGeometry as="geometry" x="0" y="42" width="340" height="99" />
+        </mxCell>
+        <mxCell id="usuario-sep" value="" style="shape=line;strokeColor=#000000;strokeWidth=1.4;" vertex="1" parent="usuario">
+          <mxGeometry as="geometry" x="0" y="141" width="340" height="0" />
+        </mxCell>
+        <mxCell id="usuario-ops" value="+ possuiPermissao(): boolean" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="usuario">
+          <mxGeometry as="geometry" x="0" y="141" width="340" height="45" />
+        </mxCell>
+        <mxCell id="administrador" value="Administrador" style="swimlane;html=0;startSize=42;horizontal=1;rounded=0;fillColor=#FFFFCC;swimlaneFillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="630" y="145" width="350" height="117" />
+        </mxCell>
+        <mxCell id="administrador-attrs" value="" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="administrador">
+          <mxGeometry as="geometry" x="0" y="42" width="350" height="30" />
+        </mxCell>
+        <mxCell id="administrador-sep" value="" style="shape=line;strokeColor=#000000;strokeWidth=1.4;" vertex="1" parent="administrador">
+          <mxGeometry as="geometry" x="0" y="72" width="350" height="0" />
+        </mxCell>
+        <mxCell id="administrador-ops" value="+ gerenciarUsuarios(): void" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="administrador">
+          <mxGeometry as="geometry" x="0" y="72" width="350" height="45" />
+        </mxCell>
+        <mxCell id="notificacao" value="Notificacao" style="swimlane;html=0;startSize=42;horizontal=1;rounded=0;fillColor=#FFFFCC;swimlaneFillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="90" y="490" width="340" height="348" />
+        </mxCell>
+        <mxCell id="notificacao-attrs" value="- id: Long&#10;- tipo: String&#10;- mensagem: String&#10;- eventoRelacionado: String&#10;- canal: String&#10;- lida: boolean&#10;- enviadaEm: LocalDateTime" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="notificacao">
+          <mxGeometry as="geometry" x="0" y="42" width="340" height="207" />
+        </mxCell>
+        <mxCell id="notificacao-sep" value="" style="shape=line;strokeColor=#000000;strokeWidth=1.4;" vertex="1" parent="notificacao">
+          <mxGeometry as="geometry" x="0" y="249" width="340" height="0" />
+        </mxCell>
+        <mxCell id="notificacao-ops" value="+ consultarConteudo(): String&#10;+ marcarComoLida(): void&#10;+ enviar(): void" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="notificacao">
+          <mxGeometry as="geometry" x="0" y="249" width="340" height="99" />
+        </mxCell>
+        <mxCell id="integracao" value="Integracao" style="swimlane;html=0;startSize=42;horizontal=1;rounded=0;fillColor=#FFFFCC;swimlaneFillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="630" y="425" width="400" height="321" />
+        </mxCell>
+        <mxCell id="integracao-attrs" value="- id: Long&#10;- nome: String&#10;- status: String&#10;- versaoApi: String&#10;- ultimaSincronizacao: LocalDateTime" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="integracao">
+          <mxGeometry as="geometry" x="0" y="42" width="400" height="153" />
+        </mxCell>
+        <mxCell id="integracao-sep" value="" style="shape=line;strokeColor=#000000;strokeWidth=1.4;" vertex="1" parent="integracao">
+          <mxGeometry as="geometry" x="0" y="195" width="400" height="0" />
+        </mxCell>
+        <mxCell id="integracao-ops" value="+ configurar(): void&#10;+ validarDados(): boolean&#10;+ sincronizar(): void&#10;+ consultarDados(): void" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="integracao">
+          <mxGeometry as="geometry" x="0" y="195" width="400" height="126" />
+        </mxCell>
+        <mxCell id="operacao" value="OperacaoIntegracao" style="swimlane;html=0;startSize=42;horizontal=1;rounded=0;fillColor=#FFFFCC;swimlaneFillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1210" y="115" width="360" height="240" />
+        </mxCell>
+        <mxCell id="operacao-attrs" value="- id: Long&#10;- direcao: String&#10;- status: String&#10;- executadaEm: LocalDateTime&#10;- detalheErro: String" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="operacao">
+          <mxGeometry as="geometry" x="0" y="42" width="360" height="153" />
+        </mxCell>
+        <mxCell id="operacao-sep" value="" style="shape=line;strokeColor=#000000;strokeWidth=1.4;" vertex="1" parent="operacao">
+          <mxGeometry as="geometry" x="0" y="195" width="360" height="0" />
+        </mxCell>
+        <mxCell id="operacao-ops" value="+ registrarResultado(): void" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="operacao">
+          <mxGeometry as="geometry" x="0" y="195" width="360" height="45" />
+        </mxCell>
+        <mxCell id="sistema" value="SistemaExterno" style="swimlane;html=0;startSize=42;horizontal=1;rounded=0;fillColor=#FFFFCC;swimlaneFillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1210" y="530" width="360" height="240" />
+        </mxCell>
+        <mxCell id="sistema-attrs" value="- id: Long&#10;- nome: String&#10;- baseUrl: String&#10;- ativo: boolean" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="sistema">
+          <mxGeometry as="geometry" x="0" y="42" width="360" height="126" />
+        </mxCell>
+        <mxCell id="sistema-sep" value="" style="shape=line;strokeColor=#000000;strokeWidth=1.4;" vertex="1" parent="sistema">
+          <mxGeometry as="geometry" x="0" y="168" width="360" height="0" />
+        </mxCell>
+        <mxCell id="sistema-ops" value="+ disponibilizarDados(): void&#10;+ receberDados(): void" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=17;spacingLeft=14;spacingRight=10;spacingTop=10;verticalAlign=top;lineHeight=1.59;" vertex="1" parent="sistema">
+          <mxGeometry as="geometry" x="0" y="168" width="360" height="72" />
+        </mxCell>
+        <mxCell id="legend" value="Associação: linha contínua    |    Dependência: linha tracejada com seta aberta    |    Herança: triângulo vazio" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=DejaVu Sans;fontSize=18;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="90" y="854" width="1450" height="30" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

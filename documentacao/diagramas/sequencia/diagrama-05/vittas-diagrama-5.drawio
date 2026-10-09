@@ -1,0 +1,1219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="uc17" name="UC17 - Consultar notificações">
+    <mxGraphModel dx="1500" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1250" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc17-0" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="1456" height="1206" />
+        </mxCell>
+        <mxCell id="uc17-1" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc17-2" value="sd" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc17-3" value="Diagrama 6 | UC17 - Consultar notificações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=27;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="37" width="1330" height="42" />
+        </mxCell>
+        <mxCell id="uc17-4" value="VITTAS 2.0 • Fluxo principal e alternativa 2a • Responsável: Samuel Yuiti" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="81" width="1330" height="28" />
+        </mxCell>
+        <mxCell id="uc17-5" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="55" y="127" width="1390" height="62" />
+        </mxCell>
+        <mxCell id="uc17-6" value="Pré-condição: usuário autenticado. Participantes: Paciente ou Instituição.&lt;br&gt;Escopo: consultar notificações já disponíveis e o evento do agendamento relacionado." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="135" width="1360" height="46" />
+        </mxCell>
+        <mxCell id="user" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="215" width="300" height="910" />
+        </mxCell>
+        <mxCell id="uc17-7" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;shape=umlActor;outlineConnect=0;fillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="user">
+          <mxGeometry as="geometry" x="127" y="-3" width="46" height="65" />
+        </mxCell>
+        <mxCell id="uc17-8" value="Usuário" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="user">
+          <mxGeometry as="geometry" x="5" y="63" width="290" height="28" />
+        </mxCell>
+        <mxCell id="uc17-9" value="Paciente ou Instituição" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="user">
+          <mxGeometry as="geometry" x="-40" y="93" width="380" height="24" />
+        </mxCell>
+        <mxCell id="uc17-10" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="122" />
+            <mxPoint as="targetPoint" x="150" y="910" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vittas" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="215" width="300" height="910" />
+        </mxCell>
+        <mxCell id="uc17-11" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc17-12" value="«sistema»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc17-13" value=": VITTAS" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc17-14" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="910" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notice" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="215" width="300" height="910" />
+        </mxCell>
+        <mxCell id="uc17-15" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="notice">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc17-16" value="«entidade»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="notice">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc17-17" value=": Notificação" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="notice">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc17-18" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="notice">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="910" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="event" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="1130" y="215" width="300" height="910" />
+        </mxCell>
+        <mxCell id="uc17-19" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="event">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc17-20" value="«evento relacionado»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="event">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc17-21" value=": Agendamento" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="event">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc17-22" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="event">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="910" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-23" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="143" y="147" width="14" height="177" />
+        </mxCell>
+        <mxCell id="uc17-24" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="notice">
+          <mxGeometry as="geometry" x="143" y="190" width="14" height="45" />
+        </mxCell>
+        <mxCell id="uc17-25" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="143" y="371" width="14" height="374" />
+        </mxCell>
+        <mxCell id="uc17-26" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="notice">
+          <mxGeometry as="geometry" x="143" y="424" width="14" height="226" />
+        </mxCell>
+        <mxCell id="uc17-27" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="event">
+          <mxGeometry as="geometry" x="143" y="485" width="14" height="76" />
+        </mxCell>
+        <mxCell id="uc17-28" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.16483516483516483;exitPerimeter=0;entryX=0.5;entryY=0.16483516483516483;entryPerimeter=0;" edge="1" parent="1" source="user" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="200" y="365" />
+            <mxPoint as="targetPoint" x="560" y="365" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-29" value="1. Acessar notificações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="336.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc17-30" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.21428571428571427;exitPerimeter=0;entryX=0.5;entryY=0.21428571428571427;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="notice">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="410" />
+            <mxPoint as="targetPoint" x="920" y="410" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-31" value="1.1 Consultar notificações&lt;br&gt;do usuário" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="359.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc17-32" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.26373626373626374;exitPerimeter=0;entryX=0.5;entryY=0.26373626373626374;entryPerimeter=0;" edge="1" parent="1" source="notice" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="455" />
+            <mxPoint as="targetPoint" x="560" y="455" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-33" value="1.2 Notificações disponíveis" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="426.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc17-34" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="482" width="1340" height="588" />
+        </mxCell>
+        <mxCell id="uc17-35" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="482" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc17-36" value="alt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="482" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc17-37" value="[existem notificações]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="158" y="486" width="1245" height="28" />
+        </mxCell>
+        <mxCell id="uc17-38" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.35714285714285715;exitPerimeter=0;entryX=0.5;entryY=0.35714285714285715;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="540" />
+            <mxPoint as="targetPoint" x="200" y="540" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-39" value="2. Apresentar notificações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="511.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc17-40" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.41208791208791207;exitPerimeter=0;entryX=0.5;entryY=0.41208791208791207;entryPerimeter=0;" edge="1" parent="1" source="user" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="200" y="590" />
+            <mxPoint as="targetPoint" x="560" y="590" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-41" value="3. Selecionar notificação" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="561.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc17-42" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.4725274725274725;exitPerimeter=0;entryX=0.5;entryY=0.4725274725274725;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="notice">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="645" />
+            <mxPoint as="targetPoint" x="920" y="645" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-43" value="3.1 Consultar conteúdo&lt;br&gt;e vínculo com o evento" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="594.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc17-44" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.5384615384615384;exitPerimeter=0;entryX=0.5;entryY=0.5384615384615384;entryPerimeter=0;" edge="1" parent="1" source="notice" target="event">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="705" />
+            <mxPoint as="targetPoint" x="1280" y="705" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-45" value="3.2 Consultar evento&lt;br&gt;relacionado" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="654.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc17-46" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.6153846153846154;exitPerimeter=0;entryX=0.5;entryY=0.6153846153846154;entryPerimeter=0;" edge="1" parent="1" source="event" target="notice">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="775" />
+            <mxPoint as="targetPoint" x="920" y="775" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-47" value="3.3 Dados do evento" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="746.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc17-48" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.7142857142857143;exitPerimeter=0;entryX=0.5;entryY=0.7142857142857143;entryPerimeter=0;" edge="1" parent="1" source="notice" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="865" />
+            <mxPoint as="targetPoint" x="560" y="865" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-49" value="3.4 Conteúdo e evento" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="836.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc17-50" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.7802197802197802;exitPerimeter=0;entryX=0.5;entryY=0.7802197802197802;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="925" />
+            <mxPoint as="targetPoint" x="200" y="925" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-51" value="4. Apresentar conteúdo&lt;br&gt;e evento relacionado" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="874.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc17-52" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.3;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="80" y="958" />
+            <mxPoint as="targetPoint" x="1420" y="958" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-53" value="[nenhuma notificação disponível - alternativa 2a]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="94" y="965" width="1312" height="29" />
+        </mxCell>
+        <mxCell id="uc17-54" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.9153846153846154;exitPerimeter=0;entryX=0.5;entryY=0.9153846153846154;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1048" />
+            <mxPoint as="targetPoint" x="200" y="1048" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc17-55" value="2a. Informar: não há&lt;br&gt;novas notificações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="997.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc17-56" value="Resultado: o usuário consulta suas notificações ou recebe a indicação de ausência." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1143" width="1386" height="26" />
+        </mxCell>
+        <mxCell id="uc17-57" value="Base: Casos de Uso - VITTAS 2.0, UC17; RN35. Notificação e Agendamento seguem o modelo conceitual de classes." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1175" width="1386" height="22" />
+        </mxCell>
+        <mxCell id="uc17-58" value="UML: linha contínua = chamada; tracejada = retorno; alt = alternativas; opt = condição opcional." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=11;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1200" width="1240" height="20" />
+        </mxCell>
+        <mxCell id="uc17-59" value="1 / 4" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1310" y="1197" width="130" height="23" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uc19-configuracao" name="UC19 - Gerenciar integrações">
+    <mxGraphModel dx="1500" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1250" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc19-configuracao-0" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="1456" height="1206" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-1" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-2" value="sd" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-3" value="Diagrama 6 | UC19 - Gerenciar integrações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=27;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="37" width="1330" height="42" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-4" value="Parte 1 de 2 • Configuração e alternativa 4a • Responsável: Samuel Yuiti" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="81" width="1330" height="28" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-5" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="55" y="127" width="1390" height="62" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-6" value="Pré-condição: comunicação com o VITTAS autorizada; integração configurada para execução.&lt;br&gt;O administrador seleciona ou ajusta os parâmetros da integração antes de utilizá-la." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="135" width="1360" height="46" />
+        </mxCell>
+        <mxCell id="admin" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="215" width="300" height="910" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-7" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;shape=umlActor;outlineConnect=0;fillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="admin">
+          <mxGeometry as="geometry" x="127" y="-3" width="46" height="65" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-8" value="Administrador" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="admin">
+          <mxGeometry as="geometry" x="5" y="63" width="290" height="28" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-9" value="Perfil administrativo" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="admin">
+          <mxGeometry as="geometry" x="-40" y="93" width="380" height="24" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-10" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="admin">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="122" />
+            <mxPoint as="targetPoint" x="150" y="910" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vittas" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="600" y="215" width="300" height="910" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-11" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-12" value="«sistema»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-13" value=": VITTAS" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-14" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="910" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integration" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="1130" y="215" width="300" height="910" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-15" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-16" value="«entidade»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-17" value=": Integração" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-18" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="910" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-19" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="143" y="147" width="14" height="178" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-20" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="143" y="195" width="14" height="59" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-21" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="143" y="350" width="14" height="474" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-22" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="143" y="410" width="14" height="54" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-23" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="143" y="551" width="14" height="44" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-24" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.16483516483516483;exitPerimeter=0;entryX=0.5;entryY=0.16483516483516483;entryPerimeter=0;" edge="1" parent="1" source="admin" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="220" y="365" />
+            <mxPoint as="targetPoint" x="750" y="365" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-25" value="1. Acessar gerenciamento de integrações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="237" y="336.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-26" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.21978021978021978;exitPerimeter=0;entryX=0.5;entryY=0.21978021978021978;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="750" y="415" />
+            <mxPoint as="targetPoint" x="1280" y="415" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-27" value="1.1 Consultar integrações cadastradas" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="767" y="386.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-28" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.27472527472527475;exitPerimeter=0;entryX=0.5;entryY=0.27472527472527475;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="465" />
+            <mxPoint as="targetPoint" x="750" y="465" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-29" value="1.2 Integrações cadastradas" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="767" y="436.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-30" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.33516483516483514;exitPerimeter=0;entryX=0.5;entryY=0.33516483516483514;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="admin">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="750" y="520" />
+            <mxPoint as="targetPoint" x="220" y="520" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-31" value="2. Apresentar integrações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="237" y="491.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-32" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.3956043956043956;exitPerimeter=0;entryX=0.5;entryY=0.3956043956043956;entryPerimeter=0;" edge="1" parent="1" source="admin" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="220" y="575" />
+            <mxPoint as="targetPoint" x="750" y="575" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-33" value="3. Configurar ou selecionar integração" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="237" y="546.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-34" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.45604395604395603;exitPerimeter=0;entryX=0.5;entryY=0.45604395604395603;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="750" y="630" />
+            <mxPoint as="targetPoint" x="1280" y="630" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-35" value="4. Validar parâmetros informados" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="767" y="601.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-36" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.510989010989011;exitPerimeter=0;entryX=0.5;entryY=0.510989010989011;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="680" />
+            <mxPoint as="targetPoint" x="750" y="680" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-37" value="4.1 Resultado da validação" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="767" y="651.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-38" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="709" width="1360" height="400" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-39" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="709" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-40" value="alt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="709" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-41" value="[parâmetros válidos]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="148" y="713" width="1265" height="28" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-42" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.6131868131868132;exitPerimeter=0;entryX=0.5;entryY=0.6131868131868132;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="750" y="773" />
+            <mxPoint as="targetPoint" x="1280" y="773" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-43" value="5. Registrar configuração" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="767" y="744.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-44" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.6626373626373626;exitPerimeter=0;entryX=0.5;entryY=0.6626373626373626;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="818" />
+            <mxPoint as="targetPoint" x="750" y="818" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-45" value="5.1 Configuração registrada" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="767" y="789.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-46" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="575" y="846" width="840" height="82" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-47" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="575" y="846" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-48" value="ref" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="575" y="846" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-49" value="UC19.2 - Comunicar com o sistema parceiro&lt;br&gt;Etapas 6 a 8 e alternativas 6a e 7a (página 3)" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1" link="data:page/uc19-comunicacao">
+          <mxGeometry as="geometry" x="653" y="856" width="748" height="62" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-50" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.8395604395604396;exitPerimeter=0;entryX=0.5;entryY=0.8395604395604396;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="admin">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="750" y="979" />
+            <mxPoint as="targetPoint" x="220" y="979" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-51" value="8.1 Apresentar resultado da operação" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="237" y="950.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-52" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.3;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="70" y="1013" />
+            <mxPoint as="targetPoint" x="1430" y="1013" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-53" value="[parâmetros inválidos - alternativa 4a]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="84" y="1020" width="1332" height="29" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-54" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.9516483516483516;exitPerimeter=0;entryX=0.5;entryY=0.9516483516483516;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="admin">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="750" y="1081" />
+            <mxPoint as="targetPoint" x="220" y="1081" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-configuracao-55" value="4a. Informar erro nos parâmetros" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="237" y="1052.4" width="496" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-56" value="Resultado: parâmetros válidos são registrados; parâmetros inválidos impedem a execução da operação." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1143" width="1386" height="26" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-57" value="Base: UC19, etapas 1 a 5; RF57, RF62; RN36. A comunicação e seu registro estão detalhados na próxima página." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1175" width="1386" height="22" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-58" value="UML: linha contínua = chamada; tracejada = retorno; alt = alternativas; opt = condição opcional." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=11;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1200" width="1240" height="20" />
+        </mxCell>
+        <mxCell id="uc19-configuracao-59" value="2 / 4" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1310" y="1197" width="130" height="23" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uc19-comunicacao" name="UC19 - Comunicação da integração">
+    <mxGraphModel dx="1500" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1770" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc19-comunicacao-0" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="1456" height="1726" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-1" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-2" value="sd" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-3" value="Diagrama 6 | UC19 - Comunicação da integração" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=27;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="37" width="1330" height="42" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-4" value="Parte 2 de 2 • Etapas 6 a 8, alternativas 6a e 7a • Referenciada pela página 2" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="81" width="1330" height="28" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-5" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="55" y="127" width="1390" height="62" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-6" value="Entrada: configuração validada e registrada; operação suportada e autorizada.&lt;br&gt;Envio e recebimento são alternativas conforme a capacidade do sistema parceiro." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="135" width="1360" height="46" />
+        </mxCell>
+        <mxCell id="vittas" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="215" width="300" height="1430" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-7" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-8" value="«sistema»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-9" value=": VITTAS" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-10" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="1430" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integration" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="215" width="300" height="1430" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-11" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-12" value="«entidade»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-13" value=": Integração" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-14" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="1430" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="partner" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="215" width="300" height="1430" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-15" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-16" value="«Sistema Parceiro»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-17" value=": Sistema externo" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-18" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="partner">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="1430" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="operation" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="1130" y="215" width="300" height="1430" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-19" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="operation">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-20" value="«registro»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="operation">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-21" value=": Operação&lt;br&gt;de integração" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="operation">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-22" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="operation">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="1430" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-23" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="143" y="138" width="14" height="1275" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-24" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="143" y="198" width="14" height="431" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-25" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.0979020979020979;exitPerimeter=0;entryX=0.5;entryY=0.0979020979020979;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="200" y="355" />
+            <mxPoint as="targetPoint" x="560" y="355" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-26" value="6. sincronizar(operação)" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="326.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-27" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.14335664335664336;exitPerimeter=0;entryX=0.5;entryY=0.14335664335664336;entryPerimeter=0;" edge="1" parent="1" source="integration" target="partner">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="420" />
+            <mxPoint as="targetPoint" x="920" y="420" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-28" value="6.1 Executar operação&lt;br&gt;suportada (envio ou consulta)" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="369.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-29" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="458" width="1360" height="1180" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-30" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="458" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-31" value="alt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="458" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-32" value="[fonte indisponível ou tempo limite - alternativa 6a]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="148" y="462" width="1265" height="28" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-33" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.21328671328671328;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.23356643356643356;entryPerimeter=0;" edge="1" parent="1" source="integration" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="567" y="520" />
+            <mxPoint as="targetPoint" x="574" y="549" />
+            <Array as="points">
+              <mxPoint x="629" y="520" />
+              <mxPoint x="629" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-34" value="6a. Detectar falha&lt;br&gt;de comunicação" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="642" y="502" width="500" height="57" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-35" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="150" y="334" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-36" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.2762237762237762;exitPerimeter=0;entryX=0.5;entryY=0.2762237762237762;entryPerimeter=0;" edge="1" parent="1" source="integration" target="operation">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="610" />
+            <mxPoint as="targetPoint" x="1280" y="610" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-37" value="6a.1 registrarResultado(falha)" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="581.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-38" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="operation">
+          <mxGeometry as="geometry" x="143" y="395" width="14" height="52" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-39" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.3132867132867133;exitPerimeter=0;entryX=0.5;entryY=0.3132867132867133;entryPerimeter=0;" edge="1" parent="1" source="operation" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="663" />
+            <mxPoint as="targetPoint" x="560" y="663" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-40" value="6a.2 Falha registrada" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="634.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-41" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.36013986013986016;exitPerimeter=0;entryX=0.5;entryY=0.36013986013986016;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="730" />
+            <mxPoint as="targetPoint" x="200" y="730" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-42" value="6a.3 Informar falha isolada" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="701.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-43" value="A configuração é preservada e o VITTAS continua disponível." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="230" y="748" width="540" height="34" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-44" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.3;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="70" y="795" />
+            <mxPoint as="targetPoint" x="1430" y="795" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-45" value="[fonte disponível]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="84" y="802" width="1332" height="29" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-46" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.44685314685314687;exitPerimeter=0;entryX=0.5;entryY=0.44685314685314687;entryPerimeter=0;" edge="1" parent="1" source="partner" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="854" />
+            <mxPoint as="targetPoint" x="560" y="854" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-47" value="7. Dados ou resultado&lt;br&gt;da operação" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="803.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-48" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="886" width="1300" height="728" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-49" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="886" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-50" value="alt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="886" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-51" value="[operação de recebimento de dados]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="178" y="890" width="1205" height="28" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-52" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.5125874125874126;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.5328671328671328;entryPerimeter=0;" edge="1" parent="1" source="integration" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="567" y="948" />
+            <mxPoint as="targetPoint" x="574" y="977" />
+            <Array as="points">
+              <mxPoint x="629" y="948" />
+              <mxPoint x="629" y="977" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-53" value="7.1 validarDados()" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="642" y="930" width="500" height="57" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-54" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="150" y="762" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-55" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="127" y="1009" width="1246" height="422" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-56" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="127" y="1009" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-57" value="alt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="127" y="1009" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-58" value="[dados recebidos válidos]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="205" y="1013" width="1151" height="28" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-59" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.5951048951048951;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.6153846153846154;entryPerimeter=0;" edge="1" parent="1" source="integration" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="567" y="1066" />
+            <mxPoint as="targetPoint" x="574" y="1095" />
+            <Array as="points">
+              <mxPoint x="629" y="1066" />
+              <mxPoint x="629" y="1095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-60" value="7.2 Processar&lt;br&gt;dados recebidos" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="642" y="1048" width="500" height="57" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-61" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="150" y="880" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-62" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.6433566433566433;exitPerimeter=0;entryX=0.5;entryY=0.6433566433566433;entryPerimeter=0;" edge="1" parent="1" source="integration" target="operation">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1135" />
+            <mxPoint as="targetPoint" x="1280" y="1135" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-63" value="8. registrarResultado(sucesso)" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1106.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-64" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="operation">
+          <mxGeometry as="geometry" x="143" y="920" width="14" height="48" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-65" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.676923076923077;exitPerimeter=0;entryX=0.5;entryY=0.676923076923077;entryPerimeter=0;" edge="1" parent="1" source="operation" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="1183" />
+            <mxPoint as="targetPoint" x="560" y="1183" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-66" value="8.1 Operação registrada" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1154.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-67" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.7146853146853147;exitPerimeter=0;entryX=0.5;entryY=0.7146853146853147;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1237" />
+            <mxPoint as="targetPoint" x="200" y="1237" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-68" value="8.2 Dados válidos&lt;br&gt;disponibilizados" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="1186.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-69" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.3;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="127" y="1263" />
+            <mxPoint as="targetPoint" x="1373" y="1263" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-70" value="[dados recebidos inválidos - alternativa 7a]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="141" y="1270" width="1218" height="29" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-71" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.7755244755244756;exitPerimeter=0;entryX=0.5;entryY=0.7755244755244756;entryPerimeter=0;" edge="1" parent="1" source="integration" target="operation">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1324" />
+            <mxPoint as="targetPoint" x="1280" y="1324" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-72" value="7a.1 registrarResultado(dados inválidos)" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1295.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-73" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="operation">
+          <mxGeometry as="geometry" x="143" y="1109" width="14" height="40" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-74" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.8041958041958042;exitPerimeter=0;entryX=0.5;entryY=0.8041958041958042;entryPerimeter=0;" edge="1" parent="1" source="operation" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="1365" />
+            <mxPoint as="targetPoint" x="560" y="1365" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-75" value="7a.2 Rejeição registrada" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1336.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-76" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.8342657342657342;exitPerimeter=0;entryX=0.5;entryY=0.8342657342657342;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1408" />
+            <mxPoint as="targetPoint" x="200" y="1408" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-77" value="7a.3 Rejeitar dados;&lt;br&gt;não disponibilizar como confirmados" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="1362.6" width="326" height="40.4" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-78" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.3;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="100" y="1451" />
+            <mxPoint as="targetPoint" x="1400" y="1451" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-79" value="[operação de envio de informações]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="114" y="1458" width="1272" height="29" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-80" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.9055944055944056;exitPerimeter=0;entryX=0.5;entryY=0.9055944055944056;entryPerimeter=0;" edge="1" parent="1" source="integration" target="operation">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1510" />
+            <mxPoint as="targetPoint" x="1280" y="1510" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-81" value="8. registrarResultado(resultado do envio)" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1481.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-82" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="operation">
+          <mxGeometry as="geometry" x="143" y="1295" width="14" height="41" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-83" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.9342657342657342;exitPerimeter=0;entryX=0.5;entryY=0.9342657342657342;entryPerimeter=0;" edge="1" parent="1" source="operation" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="1551" />
+            <mxPoint as="targetPoint" x="560" y="1551" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-84" value="8.1 Operação registrada" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1522.4" width="686" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-85" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.9685314685314685;exitPerimeter=0;entryX=0.5;entryY=0.9685314685314685;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1600" />
+            <mxPoint as="targetPoint" x="200" y="1600" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc19-comunicacao-86" value="8.2 Resultado do envio" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="1571.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-87" value="Resultado: operação registrada; falhas externas são isoladas e dados inválidos não são confirmados." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1663" width="1386" height="26" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-88" value="Base: UC19, etapas 6 a 8; RF58 a RF62; RN36 a RN40; RNF28 a RNF32. Fonte indisponível não produz resposta de sucesso." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1695" width="1386" height="22" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-89" value="UML: linha contínua = chamada; tracejada = retorno; alt = alternativas; opt = condição opcional." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=11;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1720" width="1240" height="20" />
+        </mxCell>
+        <mxCell id="uc19-comunicacao-90" value="3 / 4" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1310" y="1717" width="130" height="23" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uc20" name="UC20 - Consultar informações integradas">
+    <mxGraphModel dx="1500" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1680" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc20-0" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="1456" height="1636" />
+        </mxCell>
+        <mxCell id="uc20-1" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc20-2" value="sd" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="22" y="22" width="65" height="36" />
+        </mxCell>
+        <mxCell id="uc20-3" value="Diagrama 6 | UC20 - Consultar informações integradas" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=27;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="37" width="1330" height="42" />
+        </mxCell>
+        <mxCell id="uc20-4" value="VITTAS 2.0 • Fluxo principal e alternativas 2a, 2b e 3a • Responsável: Samuel Yuiti" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="81" width="1330" height="28" />
+        </mxCell>
+        <mxCell id="uc20-5" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="55" y="127" width="1390" height="62" />
+        </mxCell>
+        <mxCell id="uc20-6" value="Pré-condição: integração configurada e informações disponíveis na fonte (cenário principal).&lt;br&gt;A consulta respeita as permissões de Paciente, Instituição ou Administrador." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="135" width="1360" height="46" />
+        </mxCell>
+        <mxCell id="user" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="215" width="300" height="1340" />
+        </mxCell>
+        <mxCell id="uc20-7" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;shape=umlActor;outlineConnect=0;fillColor=#FFFFCC;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="user">
+          <mxGeometry as="geometry" x="127" y="-3" width="46" height="65" />
+        </mxCell>
+        <mxCell id="uc20-8" value="Usuário" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="user">
+          <mxGeometry as="geometry" x="5" y="63" width="290" height="28" />
+        </mxCell>
+        <mxCell id="uc20-9" value="Paciente, Instituição ou Administrador" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="user">
+          <mxGeometry as="geometry" x="-40" y="93" width="380" height="24" />
+        </mxCell>
+        <mxCell id="uc20-10" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="122" />
+            <mxPoint as="targetPoint" x="150" y="1340" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vittas" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="215" width="300" height="1340" />
+        </mxCell>
+        <mxCell id="uc20-11" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc20-12" value="«sistema»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc20-13" value=": VITTAS" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc20-14" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="1340" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integration" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="215" width="300" height="1340" />
+        </mxCell>
+        <mxCell id="uc20-15" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc20-16" value="«entidade»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc20-17" value=": Integração" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc20-18" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="1340" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="partner" value="" style="group;" vertex="1" connectable="1" parent="1">
+          <mxGeometry as="geometry" x="1130" y="215" width="300" height="1340" />
+        </mxCell>
+        <mxCell id="uc20-19" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFCC;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="7" y="0" width="286" height="86" />
+        </mxCell>
+        <mxCell id="uc20-20" value="«Sistema Parceiro»" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=14;fontStyle=0;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="15" y="9" width="270" height="27" />
+        </mxCell>
+        <mxCell id="uc20-21" value=": Sistema externo" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="15" y="37" width="270" height="41" />
+        </mxCell>
+        <mxCell id="uc20-22" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.2;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="partner">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="150" y="86" />
+            <mxPoint as="targetPoint" x="150" y="1340" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-23" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="143" y="177" width="14" height="1151" />
+        </mxCell>
+        <mxCell id="uc20-24" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="143" y="205" width="14" height="1037" />
+        </mxCell>
+        <mxCell id="uc20-25" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="partner">
+          <mxGeometry as="geometry" x="143" y="270" width="14" height="111" />
+        </mxCell>
+        <mxCell id="uc20-26" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.13432835820895522;exitPerimeter=0;entryX=0.5;entryY=0.13432835820895522;entryPerimeter=0;" edge="1" parent="1" source="user" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="200" y="395" />
+            <mxPoint as="targetPoint" x="560" y="395" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-27" value="Solicitar consulta de&lt;br&gt;informações integradas" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="344.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc20-28" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.1582089552238806;exitPerimeter=0;entryX=0.5;entryY=0.1582089552238806;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="427" />
+            <mxPoint as="targetPoint" x="920" y="427" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-29" value="1. Solicitar informações&lt;br&gt;à fonte integrada" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="376.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc20-30" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0.2082089552238806;exitPerimeter=0;entryX=0.5;entryY=0.2082089552238806;entryPerimeter=0;" edge="1" parent="1" source="integration" target="partner">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="494" />
+            <mxPoint as="targetPoint" x="1280" y="494" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-31" value="1.1 disponibilizarDados()" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="465.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc20-32" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="527" width="1360" height="1025" />
+        </mxCell>
+        <mxCell id="uc20-33" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="527" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc20-34" value="alt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="527" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc20-35" value="[fonte disponível]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="148" y="531" width="1265" height="28" />
+        </mxCell>
+        <mxCell id="uc20-36" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.28134328358208954;exitPerimeter=0;entryX=0.5;entryY=0.28134328358208954;entryPerimeter=0;" edge="1" parent="1" source="partner" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="592" />
+            <mxPoint as="targetPoint" x="920" y="592" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-37" value="2. Dados disponíveis" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="937" y="563.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc20-38" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.3246268656716418;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.34626865671641793;entryPerimeter=0;" edge="1" parent="1" source="integration" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="927" y="650" />
+            <mxPoint as="targetPoint" x="934" y="679" />
+            <Array as="points">
+              <mxPoint x="989" y="650" />
+              <mxPoint x="989" y="679" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-39" value="3. validarDados()" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1002" y="632" width="458" height="57" />
+        </mxCell>
+        <mxCell id="uc20-40" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="150" y="464" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc20-41" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="102" y="713" width="1296" height="589" />
+        </mxCell>
+        <mxCell id="uc20-42" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="102" y="713" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc20-43" value="alt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="102" y="713" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc20-44" value="[dados recebidos válidos]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="180" y="717" width="1201" height="28" />
+        </mxCell>
+        <mxCell id="uc20-45" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.4216417910447761;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.44328358208955226;entryPerimeter=0;" edge="1" parent="1" source="integration" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="927" y="780" />
+            <mxPoint as="targetPoint" x="934" y="809" />
+            <Array as="points">
+              <mxPoint x="989" y="780" />
+              <mxPoint x="989" y="809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-46" value="4. Identificar origem&lt;br&gt;5. Processar e organizar dados" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1002" y="762" width="458" height="57" />
+        </mxCell>
+        <mxCell id="uc20-47" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="150" y="594" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc20-48" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.7;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="718" y="851" width="651" height="128" />
+        </mxCell>
+        <mxCell id="uc20-49" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="718" y="851" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc20-50" value="opt" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="718" y="851" width="63" height="32" />
+        </mxCell>
+        <mxCell id="uc20-51" value="[informação não fornecida - alternativa 2b]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="796" y="855" width="556" height="28" />
+        </mxCell>
+        <mxCell id="uc20-52" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.5216417910447761;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.5432835820895522;entryPerimeter=0;" edge="1" parent="1" source="integration" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="927" y="914" />
+            <mxPoint as="targetPoint" x="934" y="943" />
+            <Array as="points">
+              <mxPoint x="989" y="914" />
+              <mxPoint x="989" y="943" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-53" value="2b. Indicar ausência;&lt;br&gt;não confirmar a informação" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1002" y="896" width="458" height="57" />
+        </mxCell>
+        <mxCell id="uc20-54" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="150" y="728" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc20-55" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.6097014925373134;exitPerimeter=0;entryX=0.5;entryY=0.6097014925373134;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="1032" />
+            <mxPoint as="targetPoint" x="560" y="1032" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-56" value="5.1 Dados válidos,&lt;br&gt;origem e ausências" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="981.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc20-57" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.6529850746268657;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.6746268656716418;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="567" y="1090" />
+            <mxPoint as="targetPoint" x="574" y="1119" />
+            <Array as="points">
+              <mxPoint x="629" y="1090" />
+              <mxPoint x="629" y="1119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-58" value="6. Aplicar permissões&lt;br&gt;às informações" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="642" y="1072" width="500" height="57" />
+        </mxCell>
+        <mxCell id="uc20-59" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="vittas">
+          <mxGeometry as="geometry" x="150" y="904" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc20-60" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.7052238805970149;exitPerimeter=0;entryX=0.5;entryY=0.7052238805970149;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1160" />
+            <mxPoint as="targetPoint" x="200" y="1160" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-61" value="6.1 Apresentar&lt;br&gt;informações permitidas" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="1109.8" width="326" height="45.199999999999996" />
+        </mxCell>
+        <mxCell id="uc20-62" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.3;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="102" y="1190" />
+            <mxPoint as="targetPoint" x="1398" y="1190" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-63" value="[dados recebidos inválidos - alternativa 3a]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="116" y="1197" width="1268" height="29" />
+        </mxCell>
+        <mxCell id="uc20-64" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.7686567164179104;exitPerimeter=0;entryX=0.5;entryY=0.7686567164179104;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="1245" />
+            <mxPoint as="targetPoint" x="560" y="1245" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-65" value="3a. Rejeitar dados inválidos" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1216.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc20-66" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.7992537313432836;exitPerimeter=0;entryX=0.5;entryY=0.7992537313432836;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1286" />
+            <mxPoint as="targetPoint" x="200" y="1286" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-67" value="3a.1 Informar dados&lt;br&gt;não confirmados" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="1240.6" width="326" height="40.4" />
+        </mxCell>
+        <mxCell id="uc20-68" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.3;dashed=1;dashPattern=7 5;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="70" y="1330" />
+            <mxPoint as="targetPoint" x="1430" y="1330" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-69" value="[fonte indisponível ou tempo limite - alternativa 2a]" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="84" y="1337" width="1332" height="29" />
+        </mxCell>
+        <mxCell id="uc20-70" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=0;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5233333333333333;exitY=0.8768656716417911;exitPerimeter=0;entryX=0.5466666666666666;entryY=0.8985074626865671;entryPerimeter=0;" edge="1" parent="1" source="integration" target="integration">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="927" y="1390" />
+            <mxPoint as="targetPoint" x="934" y="1419" />
+            <Array as="points">
+              <mxPoint x="989" y="1390" />
+              <mxPoint x="989" y="1419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-71" value="2a. Detectar indisponibilidade" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1002" y="1372" width="458" height="57" />
+        </mxCell>
+        <mxCell id="uc20-72" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFCC;" vertex="1" parent="integration">
+          <mxGeometry as="geometry" x="150" y="1204" width="14" height="13" />
+        </mxCell>
+        <mxCell id="uc20-73" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.9291044776119403;exitPerimeter=0;entryX=0.5;entryY=0.9291044776119403;entryPerimeter=0;" edge="1" parent="1" source="integration" target="vittas">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="920" y="1460" />
+            <mxPoint as="targetPoint" x="560" y="1460" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-74" value="2a.1 Fonte indisponível" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=18;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="577" y="1431.4" width="326" height="23.599999999999998" />
+        </mxCell>
+        <mxCell id="uc20-75" value="" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;edgeStyle=none;strokeColor=#000000;strokeWidth=1.5;dashed=1;dashPattern=7 5;startArrow=none;endArrow=open;endFill=0;endSize=8;exitX=0.5;exitY=0.9738805970149254;exitPerimeter=0;entryX=0.5;entryY=0.9738805970149254;entryPerimeter=0;" edge="1" parent="1" source="vittas" target="user">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="560" y="1520" />
+            <mxPoint as="targetPoint" x="200" y="1520" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc20-76" value="2a.2 Informar: dados não&lt;br&gt;puderam ser atualizados" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;fontSize=17;fontStyle=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="217" y="1472.2" width="326" height="42.8" />
+        </mxCell>
+        <mxCell id="uc20-77" value="Resultado: somente informações válidas e permitidas são apresentadas, com sua origem e eventuais ausências." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1573" width="1386" height="26" />
+        </mxCell>
+        <mxCell id="uc20-78" value="Base: UC20; RF61, RF63 e RF64; RN04, RN37 a RN40. A solicitação do usuário explicita o gatilho da consulta." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1605" width="1386" height="22" />
+        </mxCell>
+        <mxCell id="uc20-79" value="UML: linha contínua = chamada; tracejada = retorno; alt = alternativas; opt = condição opcional." style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;fontSize=11;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="57" y="1630" width="1240" height="20" />
+        </mxCell>
+        <mxCell id="uc20-80" value="4 / 4" style="html=1;rounded=0;shadow=0;fontFamily=DejaVu Sans;fontColor=#000000;text;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;fontSize=13;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1310" y="1627" width="130" height="23" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
