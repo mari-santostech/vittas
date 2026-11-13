@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vittas</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+    <!-- Menu Lateral -->
+        <div class="">
+            <aside class="sidebar">
+                    <nav aria-label="Menu Principal">
+                        <ul class="menu">
+                            <li><a href="#"aria-current="page"><span class="ico">🏢</span>Instituições</a></li>
+                            <li><a href="#"><span class="ico">➕</span>Serviços</a></li>
+                            <li><a href="#"><span class="ico">👤</span>Profissionais</a></li>
+                            <li><a href="#"><span class="ico">💳</span>Convênios e Planos</a></li>
+                            <li><a href="#"><span class="ico">📅</span>Agendamentos</a></li>
+                            <li><a href="#"><span class="ico">👤</span>Usuários e Permissões</a></li>
+                            <li><a href="#"><span class="ico">🔌</span>Integrações</a></li>
+                        </ul>
+                    </nav>
+            </aside>
+        </div>
+        <!-- Conteúdo -->
+        <div id="app-main">
+            <main>
+                <p class="breadcrumb">Administração<span>/</span>Instituições</p>
+                <div class="page-head">
+                    <h1>Gerenciamento de Instituições</h1>
+                    <a href="#modal-form" class="btn btn-primary">+ Nova Instituição</a>
+                </div> 
+
+                <!-- Filtros Pesquisa -->
+                <search>
+                    <section>
+                        <form id="form-busca">
+                            <div class="field-group grow">
+                                <label for="busca">Buscar</label>
+                                <div class="input-icon">
+                                    <span aria-hidden="true">🔍</span>
+                                    <input id="busca" type="search" placeholder="Nome Fantasia ou CNPJ">
+                                </div>
+                            </div>
+                        
+                            <div class="field-group">
+                                <label for="situacao">Situação</label>
+                                <select id="situacao" class="control">
+                                    <option value="">Todas</option>
+                                    <option value="ativa">Ativa</option>
+                                    <option value="inativa">Inativa</option>
+                                </select>
+                            </div>
+
+                            <button type="submit">Pesquisar</button>
+                            <button type="reset">Limpar</button>
+                        </form>
+                    </section>
+
+                    <section>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>NOME FANTASIA</th>
+                                    <th>CNPJ</th>
+                                    <th>ENDEREÇO</th>
+                                    <th>TELEFONE</th>
+                                    <th>SITUACAO</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                           <!--  nao precisa toda vez, utilizando um framework, td>td e etc :D vc pode simplesmente fazer um foreach e apenas passar como vc qr que as coisas sejam exibidas
+
+                            ex php laravel:
+
+                            @foreach($data as $item)
+                                <tr>
+                                    <td>{{ $item->fantasy_name }}</td>
+                                    <td>{{ $item->cnpj }}</td>
+                                    <td>{{ $item->address }}</td>
+                                    <td>{{ $item->phone }}</td>
+                                    <td>{{ $item->status }}</td>
+                                    <td>
+                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
+                                    </td>
+                                </tr>
+
+                            endforeach -->
+
+                            <tbody>
+                                <tr>
+                                    <td>lorem</td>
+                                    <td>12.345.678/0001-90</td>
+                                    <td>R. Endereco teste - Maringá/PR</td>
+                                    <td>(44) 1234-5678</td>
+                                    <td>Ativa</td>
+                                    <td>
+                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>lorem</td>
+                                    <td>12.345.678/0001-90</td>
+                                    <td>R. Endereco teste - Maringá/PR</td>
+                                    <td>(44) 1234-5678</td>
+                                    <td>Ativa</td>
+                                    <td>
+                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>lorem</td>
+                                    <td>12.345.678/0001-90</td>
+                                    <td>R. Endereco teste - Maringá/PR</td>
+                                    <td>(44) 1234-5678</td>
+                                    <td>Ativa</td>
+                                    <td>
+                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </search>
+            </main>
+        </div>
+    </body>
+</html>
