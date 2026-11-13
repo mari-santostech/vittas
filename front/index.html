@@ -5,131 +5,199 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vittas</title>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
     <!-- Menu Lateral -->
-        <div class="">
-            <aside class="sidebar">
-                    <nav aria-label="Menu Principal">
-                        <ul class="menu">
-                            <li><a href="#"aria-current="page"><span class="ico">🏢</span>Instituições</a></li>
-                            <li><a href="#"><span class="ico">➕</span>Serviços</a></li>
-                            <li><a href="#"><span class="ico">👤</span>Profissionais</a></li>
-                            <li><a href="#"><span class="ico">💳</span>Convênios e Planos</a></li>
-                            <li><a href="#"><span class="ico">📅</span>Agendamentos</a></li>
-                            <li><a href="#"><span class="ico">👤</span>Usuários e Permissões</a></li>
-                            <li><a href="#"><span class="ico">🔌</span>Integrações</a></li>
-                        </ul>
-                    </nav>
-            </aside>
-        </div>
+        <div class="app-wrapper d-flex">
+        <aside class="sidebar d-flex flex-column justify-content-between">
+            <div>
+                <div class="sidebar-brand">
+                    <span class="brand-logo">VITTAS</span>
+                    <small class="brand-subtitle d-block">Administração</small>
+                </div>
+
+                <nav aria-label="Menu Principal">
+                    <ul class="menu list-unstyled">
+                        <li><a href="#" class="active" aria-current="page"><i class="bi bi-building ico"></i> Instituições</a></li>
+                        <li><a href="#"><i class="bi bi-plus-circle ico"></i> Serviços</a></li>
+                        <li><a href="#"><i class="bi bi-person ico"></i> Profissionais</a></li>
+                        <li><a href="#"><i class="bi bi-credit-card ico"></i> Convênios e Planos</a></li>
+                        <li><a href="#"><i class="bi bi-calendar-event ico"></i> Agendamentos</a></li>
+                        <li><a href="#"><i class="bi bi-people ico"></i> Usuários e Permissões</a></li>
+                        <li><a href="#"><i class="bi bi-plug ico"></i> Integrações</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <strong class="d-block">Administrador</strong>
+                    <small class="text-muted">Perfil: ADM_SISTEMA</small>
+                </div>
+            </div>
+        </aside>
+
         <!-- Conteúdo -->
         <div id="app-main">
             <main>
-                <p class="breadcrumb">Administração<span>/</span>Instituições</p>
-                <div class="page-head">
-                    <h1>Gerenciamento de Instituições</h1>
-                    <a href="#modal-form" class="btn btn-primary">+ Nova Instituição</a>
-                </div> 
+                <!-- Cabeçalho -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-2">
+                        <li class="breadcrumb-item text-muted">Administração</li>
+                        <li class="breadcrumb-item active fw-medium" aria-current="page">Instituições</li>
+                    </ol>
+                </nav>
+                <div class="page-head d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
+                    <h1 class="h3 mb-0 fw-bold">Gerenciamento de Instituições</h1>
+                    <button type="button" id="btnNovaInstituicao" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalInstituicao">
+                        <i class="bi bi-plus-lg me-1"></i> Nova Instituição
+                    </button>
+                </div>
 
-                <!-- Filtros Pesquisa -->
-                <search>
-                    <section>
-                        <form id="form-busca">
-                            <div class="field-group grow">
-                                <label for="busca">Buscar</label>
-                                <div class="input-icon">
-                                    <span aria-hidden="true">🔍</span>
-                                    <input id="busca" type="search" placeholder="Nome Fantasia ou CNPJ">
+                <!-- Filtros de Pesquisa -->
+                <section class="card shadow-sm border-0 mb-4">
+                    <div class="card-body">
+                        <form id="form-busca" class="row g-3 align-items-end">
+                            <div class="col-12 col-md-6 col-lg-5">
+                                <label for="busca" class="form-label fw-medium">Buscar</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
+                                    <input id="busca" type="search" class="form-control border-start-0" placeholder="Nome Fantasia ou CNPJ">
                                 </div>
                             </div>
-                        
-                            <div class="field-group">
-                                <label for="situacao">Situação</label>
-                                <select id="situacao" class="control">
+                            <div class="col-12 col-md-3 col-lg-3">
+                                <label for="situacao" class="form-label fw-medium">Situação</label>
+                                <select id="situacao" class="form-select">
                                     <option value="">Todas</option>
                                     <option value="ativa">Ativa</option>
                                     <option value="inativa">Inativa</option>
                                 </select>
                             </div>
-
-                            <button type="submit">Pesquisar</button>
-                            <button type="reset">Limpar</button>
+                            <div class="col-12 col-md-3 col-lg-4 d-flex gap-2">
+                                <button type="submit" class="btn btn-primary">Pesquisar</button>
+                                <button type="reset" id="btnLimparBusca" class="btn btn-outline-secondary">Limpar</button>
+                            </div>
                         </form>
-                    </section>
+                    </div>
+                </section>
 
-                    <section>
-                        <table>
-                            <thead>
+                <section class="card shadow-sm border-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-light">
                                 <tr>
+                                    <th class="ps-4">ID</th>
                                     <th>NOME FANTASIA</th>
                                     <th>CNPJ</th>
                                     <th>ENDEREÇO</th>
                                     <th>TELEFONE</th>
-                                    <th>SITUACAO</th>
-                                    <th></th>
+                                    <th>SITUAÇÃO</th>
+                                    <th class="text-end pe-4">AÇÕES</th>
                                 </tr>
                             </thead>
 
-                           <!--  nao precisa toda vez, utilizando um framework, td>td e etc :D vc pode simplesmente fazer um foreach e apenas passar como vc qr que as coisas sejam exibidas
-
-                            ex php laravel:
-
-                            @foreach($data as $item)
+                            <tbody id="tabela-instituicoes-body">
                                 <tr>
-                                    <td>{{ $item->fantasy_name }}</td>
-                                    <td>{{ $item->cnpj }}</td>
-                                    <td>{{ $item->address }}</td>
-                                    <td>{{ $item->phone }}</td>
-                                    <td>{{ $item->status }}</td>
-                                    <td>
-                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
-                                    </td>
-                                </tr>
-
-                            endforeach -->
-
-                            <tbody>
-                                <tr>
-                                    <td>lorem</td>
+                                    <td class="ps-4 fw-medium">1</td>
+                                    <td class="fw-semibold">Clínica Exemplo Saúde</td>
                                     <td>12.345.678/0001-90</td>
-                                    <td>R. Endereco teste - Maringá/PR</td>
-                                    <td>(44) 1234-5678</td>
-                                    <td>Ativa</td>
-                                    <td>
-                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
-                                    </td>
-                                </tr>
-                                
-                                <tr>
-                                    <td>lorem</td>
-                                    <td>12.345.678/0001-90</td>
-                                    <td>R. Endereco teste - Maringá/PR</td>
-                                    <td>(44) 1234-5678</td>
-                                    <td>Ativa</td>
-                                    <td>
-                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
-                                    </td>
-                                </tr>
-                            
-                                <tr>
-                                    <td>lorem</td>
-                                    <td>12.345.678/0001-90</td>
-                                    <td>R. Endereco teste - Maringá/PR</td>
-                                    <td>(44) 1234-5678</td>
-                                    <td>Ativa</td>
-                                    <td>
-                                        <a href="#"><i class="bi bi-pen"></i> Editar</a>
+                                    <td>Rua das Amostras, 100. Centro Cidade Maringá-PR</td>
+                                    <td>(00) 0000-0001</td>
+                                    <td><span class="badge bg-success-subtle text-success border border-success-subtle">Ativa</span></td>
+                                    <td class="text-end pe-4">
+                                        <button type="button" class="btn btn-sm btn-outline-primary me-1" title="Editar">
+                                            <i class="bi bi-pen"></i> Editar
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger" title="Desativar">
+                                            <i class="bi bi-slash-circle"></i> Desativar
+                                        </button>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
-                    </section>
-                </search>
+                    </div>
+                </section>
+
             </main>
         </div>
+
+    <!-- MODAL 1: CADASTRAR / EDITAR INSTITUIÇÃO (Páginas 4, 5, 6 e 7)         -->
+    <div class="modal fade" id="modalInstituicao" tabindex="-1" aria-labelledby="modalInstituicaoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <form id="form-instituicao" novalidate>
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold" id="modalInstituicaoLabel">Nova Instituição</h5>
+                            <small class="text-muted">Campos com <span class="text-danger">*</span> são obrigatórios.</small>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <!-- Campo oculto para guardar o ID na edição -->
+                        <input type="hidden" id="instituicaoId">
+
+                        <!-- Barra de Status (Exibida apenas no modo Edição - Página 7 do Mockup) -->
+                        <div id="info-edicao-header" class="alert alert-light border d-flex justify-content-between align-items-center py-2 mb-3 d-none">
+                            <span class="small fw-semibold">ID <span id="edit-id-display"></span></span>
+                            <span class="small">Situação atual: <strong id="edit-status-display">Ativa</strong></span>
+                        </div>
+
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label for="nomeFantasia" class="form-label fw-medium">Nome Fantasia <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="nomeFantasia" placeholder="Ex.: Clínica Exemplo Saúde" required>
+                                <div class="invalid-feedback" id="erro-nomeFantasia">Informe o nome fantasia.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="razaoSocial" class="form-label fw-medium">Razão Social <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="razaoSocial" placeholder="Ex.: Exemplo Saúde Ltda." required>
+                                <div class="invalid-feedback" id="erro-razaoSocial">Informe a razão social.</div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="cnpjMatriz" class="form-label fw-medium">CNPJ (matriz) <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="cnpjMatriz" placeholder="00.000.000/0000-00" maxlength="18" required>
+                                <div class="form-text">Formato 00.000.000/0000-00</div>
+                                <div class="invalid-feedback" id="erro-cnpjMatriz">CNPJ inválido. Use o formato 00.000.000/0000-00.</div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="cnpjFilial" class="form-label fw-medium">CNPJ (filial) <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="cnpjFilial" placeholder="00.000.000/0000-00" maxlength="18" required>
+                                <div class="form-text">Formato 00.000.000/0000-00</div>
+                                <div class="invalid-feedback" id="erro-cnpjFilial">CNPJ da filial inválido. Use o formato 00.000.000/0000-00.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="endereco" class="form-label fw-medium">Endereço completo <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="endereco" placeholder="Rua, número, bairro, cidade/UF" required>
+                                <div class="invalid-feedback" id="erro-endereco">Informe o endereço completo.</div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="telefone" class="form-label fw-medium">Telefone <span class="text-danger">*</span></label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="(00) 0000-0000" maxlength="15" required>
+                                <div class="invalid-feedback" id="erro-telefone">Informe um telefone válido.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary" id="btnSalvarInstituicao">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
