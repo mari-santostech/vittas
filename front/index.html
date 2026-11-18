@@ -1,131 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vittas</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vittas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-    <!-- Menu Lateral -->
-        <div class="app-wrapper">
-            <aside class="sidebar">
+<body>
+    <div class="app-wrapper">
+
+        <!-- Menu lateral -->
+        <aside class="sidebar">
             <div>
                 <div class="sidebar-marca">
                     <span class="logo">VITTAS</span>
                     <small class="subtitulo">Administração</small>
                 </div>
 
-                <nav aria-label="Menu Principal">
+                <nav aria-label="Menu principal">
                     <ul class="lista-menu">
-                        <li><a href="#" class="active" aria-current="page"><i class="bi bi-building ico"></i> Instituições</a></li>
-                        <li><a href="#"><i class="bi bi-plus-circle ico"></i> Serviços</a></li>
-                        <li><a href="#"><i class="bi bi-person ico"></i> Profissionais</a></li>
-                        <li><a href="#"><i class="bi bi-credit-card ico"></i> Convênios e Planos</a></li>
-                        <li><a href="#"><i class="bi bi-calendar-event ico"></i> Agendamentos</a></li>
-                        <li><a href="#"><i class="bi bi-people ico"></i> Usuários e Permissões</a></li>
-                        <li><a href="#"><i class="bi bi-plug ico"></i> Integrações</a></li>
+                        <li><a href="#" class="link-menu active" aria-current="page"><i class="bi bi-building ico"></i> Instituições</a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-plus-circle ico"></i> Serviços</a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-person ico"></i> Profissionais</a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-credit-card ico"></i> Convênios e Planos</a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-calendar-event ico"></i> Agendamentos</a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-people ico"></i> Usuários e Permissões</a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-plug ico"></i> Integrações</a></li>
                     </ul>
                 </nav>
             </div>
+
             <div class="sidebar-rodape">
                 <div class="user-info">
-                    <strong class="d-block">Administrador</strong>
-                    <small class="text-muted">Perfil: ADM_SISTEMA</small>
+                    <strong>Administrador</strong>
+                    <small>Perfil: ADM_SISTEMA</small>
                 </div>
             </div>
         </aside>
 
         <!-- Conteúdo -->
-            <main id="app-main" class="app-main">
-                <!-- Cabeçalho -->
-                <nav aria-label="breadcrumb">
-                    <ol class="cabecalho">
-                        <li class="cabecalho-item">Administração</li>
-                        <li class="cabecalho-item" aria-current="page">Instituições</li>
-                    </ol>
-                </nav>
-                <div class="page-head">
-                    <h1 class="titulo-pagina">Gerenciamento de Instituições</h1>
-                    <button type="button" id="btnNovaInstituicao" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalInstituicao">
-                        <i class="bi bi-plus-lg me-1"></i> Nova Instituição
-                    </button>
+        <main id="app-main" class="app-main">
+
+            <nav aria-label="breadcrumb">
+                <ol class="cabecalho">
+                    <li class="cabecalho-item">Administração</li>
+                    <li class="cabecalho-item" aria-current="page">Instituições</li>
+                </ol>
+            </nav>
+
+            <div class="page-head">
+                <h1 class="titulo-pagina">Gerenciamento de Instituições</h1>
+                <button type="button" id="btnNovaInstituicao" class="btn btn-primary btn-com-icone" data-bs-toggle="modal" data-bs-target="#modalInstituicao">
+                    <i class="bi bi-plus-lg"></i> Nova Instituição
+                </button>
+            </div>
+
+            <!-- Filtros de pesquisa -->
+            <section class="card-painel">
+                <div class="card-painel-corpo">
+                    <form id="form-busca" class="filtros">
+                        <div class="filtro-campo">
+                            <label for="busca" class="form-label">Buscar</label>
+                            <div class="input-group">
+                                <span class="input-group-text search-icon"><i class="bi bi-search"></i></span>
+                                <input id="busca" type="search" class="form-control search-input" placeholder="Nome Fantasia ou CNPJ">
+                            </div>
+                        </div>
+
+                        <div class="filtro-campo">
+                            <label for="situacao" class="form-label">Status</label>
+                            <select id="situacao" class="form-select">
+                                <option value="">Todas</option>
+                                <option value="ativa">Ativa</option>
+                                <option value="inativa">Inativa</option>
+                            </select>
+                        </div>
+
+                        <div class="filtro-acoes">
+                            <button type="submit" class="btn btn-primary">Pesquisar</button>
+                            <button type="reset" id="btnLimparBusca" class="btn btn-outline-secondary">Limpar</button>
+                        </div>
+                    </form>
                 </div>
+            </section>
 
-                <!-- Filtros de Pesquisa -->
-                <section class="card-painel">
-                    <div class="card-body">
-                        <form id="form-busca" class="row g-3 align-items-end">
-                            <div class="col-12 col-md-6 col-lg-5">
-                                <label for="busca" class="form-label fw-medium">Buscar</label>
-                                <div class="input-group">
-                                    <span class="input-group-text search-icon"><i class="bi bi-search"></i></span>
-                                    <input id="busca" type="search" class="form-control border-start-0" placeholder="Nome Fantasia ou CNPJ">
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-3 col-lg-3">
-                                <label for="situacao" class="form-label">Status</label>
-                                <select id="situacao" class="form-select">
-                                    <option value="">Todas</option>
-                                    <option value="ativa">Ativa</option>
-                                    <option value="inativa">Inativo</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-3 col-lg-4 d-flex gap-2">
-                                <button type="submit" class="btn btn-primary">Pesquisar</button>
-                                <button type="reset" id="btnLimparBusca" class="btn btn-outline-secondary">Limpar</button>
-                            </div>
-                        </form>
-                    </div>
-                </section>
+            <!-- Tabela de instituições -->
+            <section class="card-painel">
+                <div class="table-responsive">
+                    <table class="table table-hover table-instituicoes">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome Fantasia</th>
+                                <th>CNPJ</th>
+                                <th>Endereço</th>
+                                <th>Telefone</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
 
-                <!-- Tabela de Instituições -->
-                <section class="card-painel">
-                    <div class="table-responsive">
-                        <table class="table table-hover table-instituicoes">
-                            <thead class="table-light">
-                                <tr>
-                                    <th class="ps-4">ID</th>
-                                    <th>NOME FANTASIA</th>
-                                    <th>CNPJ</th>
-                                    <th>ENDEREÇO</th>
-                                    <th>TELEFONE</th>
-                                    <th>STATUS</th>
-                                    <th class="text-end pe-4">AÇÕES</th>
-                                </tr>
-                            </thead>
+                        <tbody id="tabela-instituicoes-body">
+                            <tr>
+                                <td class="cell-id">1</td>
+                                <td class="cell-nome">Clínica Exemplo Saúde</td>
+                                <td>12.345.678/0001-90</td>
+                                <td>Rua das Amostras, 100. Centro Cidade Maringá-PR</td>
+                                <td>(00) 0000-0001</td>
+                                <td><span class="badge-status badge-status--ativa">Ativa</span></td>
+                                <td>
+                                    <button type="button" class="btn btn-sm btn-outline-primary btn-com-icone" title="Editar" data-id="1" data-bs-toggle="modal" data-bs-target="#modalEditarInstituicao">
+                                        <i class="bi bi-pen"></i> Editar
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
-                            <tbody id="tabela-instituicoes-body">
-                                <tr>
-                                    <td class="ps-4 fw-medium">1</td>
-                                    <td class="fw-semibold">Clínica Exemplo Saúde</td>
-                                    <td>12.345.678/0001-90</td>
-                                    <td>Rua das Amostras, 100. Centro Cidade Maringá-PR</td>
-                                    <td>(00) 0000-0001</td>
-                                    <td><span class="badge bg-success-subtle text-success border border-success-subtle">Ativa</span></td>
-                                    <td class="text-end pe-4">
-                                        <button type="button" class="btn btn-sm btn-outline-primary me-1" title="Editar">
-                                            <i class="bi bi-pen"></i> Editar
-                                        </button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
+        </main>
+    </div>
 
-            </main>
-        </div>
-
-    <!-- MODAL 1: CADASTRAR INSTITUIÇÃO -->
-    <div class="modalInstituicao" id="modalInstituicao" tabindex="-1" aria-labelledby="modalInstituicaoLabel" aria-hidden="true">
+    <!-- Modal: cadastrar / editar instituição -->
+    <div class="modal fade" id="modalInstituicao" tabindex="-1" aria-labelledby="modalInstituicaoLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <form id="form-instituicao" novalidate>
+
                     <div class="modal-header">
                         <div>
                             <h5 class="modal-titulo" id="modalInstituicaoLabel">Nova Instituição</h5>
@@ -137,45 +143,34 @@
                     <div class="modal-body">
                         <input type="hidden" id="instituicaoId">
 
-                        <!-- Barra de Status -->
-                        <div id="info-edicao-header" class="alert alert-light border d-flex justify-content-between align-items-center py-2 mb-3 d-none">
-                            <span class="small fw-semibold">ID <span id="edit-id-display"></span></span>
-                            <span class="small">Situação atual: <strong id="edit-status-display">Ativa</strong></span>
-                        </div>
-
-                        <div class="row g-3">
-                            <!-- Nome Fantasia * -->
-                            <div class="col-12">
-                                <label for="nomeFantasia" class="form-label fw-medium">Nome Fantasia <span class="text-danger">*</span></label>
+                        <div class="form-grid">
+                            <div class="campo campo-largo">
+                                <label for="nomeFantasia" class="form-label">Nome Fantasia <span class="required-mark">*</span></label>
                                 <input type="text" class="form-control" id="nomeFantasia" placeholder="Ex.: Clínica Exemplo Saúde" required>
                                 <div class="invalid-feedback" id="erro-nomeFantasia">Informe o nome fantasia.</div>
                             </div>
 
-                            <!-- Razão Social * -->
-                            <div class="col-12">
-                                <label for="razaoSocial" class="form-label fw-medium">Razão Social <span class="text-danger">*</span></label>
+                            <div class="campo campo-largo">
+                                <label for="razaoSocial" class="form-label">Razão Social <span class="required-mark">*</span></label>
                                 <input type="text" class="form-control" id="razaoSocial" placeholder="Ex.: Exemplo Saúde Ltda." required>
                                 <div class="invalid-feedback" id="erro-razaoSocial">Informe a razão social.</div>
                             </div>
 
-                            <!-- CNPJ * -->
-                            <div class="col-12 col-md-6">
-                                <label for="cnpj" class="form-label fw-medium">CNPJ <span class="text-danger">*</span></label>
+                            <div class="campo">
+                                <label for="cnpj" class="form-label">CNPJ <span class="required-mark">*</span></label>
                                 <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0000-00" maxlength="18" required>
                                 <div class="form-text">Formato 00.000.000/0000-00</div>
                                 <div class="invalid-feedback" id="erro-cnpj">CNPJ inválido. Use o formato 00.000.000/0000-00.</div>
                             </div>
 
-                            <!-- Telefone * -->
-                            <div class="col-12 col-md-6">
-                                <label for="telefone" class="form-label fw-medium">Telefone <span class="text-danger">*</span></label>
+                            <div class="campo">
+                                <label for="telefone" class="form-label">Telefone <span class="required-mark">*</span></label>
                                 <input type="tel" class="form-control" id="telefone" placeholder="(00) 0000-0000" maxlength="15">
                                 <div class="invalid-feedback" id="erro-telefone">Informe um telefone válido.</div>
                             </div>
 
-                            <!-- Endereço Completo * -->
-                            <div class="col-12">
-                                <label for="endereco" class="form-label fw-medium">Endereço completo <span class="text-danger">*</span></label>
+                            <div class="campo campo-largo">
+                                <label for="endereco" class="form-label">Endereço completo <span class="required-mark">*</span></label>
                                 <input type="text" class="form-control" id="endereco" placeholder="Rua, número, bairro, cidade/UF" required>
                                 <div class="invalid-feedback" id="erro-endereco">Informe o endereço completo.</div>
                             </div>
@@ -186,12 +181,105 @@
                         <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
                         <button type="submit" class="btn btn-primary" id="btnSalvarInstituicao">Salvar</button>
                     </div>
+
                 </form>
             </div>
         </div>
     </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+    <!-- Modal: editar instituição -->
+    <div class="modal fade" id="modalEditarInstituicao" tabindex="-1" aria-labelledby="modalEditarInstituicaoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <form id="form-editar-instituicao" novalidate>
+
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="modal-titulo" id="modalEditarInstituicaoLabel">Editar Instituição</h5>
+                            <small class="modal-subtitulo">Campos com <span class="required-mark">*</span> são obrigatórios.</small>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <input type="hidden" id="editInstituicaoId">
+
+                        <!-- Barra de status: o JS preenche ID e situação ao abrir -->
+                        <div id="info-edicao-header" class="alert alert-light info-edicao">
+                            <span class="info-edicao-id">ID <span id="edit-id-display"></span></span>
+                            <span>Situação atual: <strong id="edit-status-display">Ativa</strong></span>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="campo campo-largo">
+                                <label for="editNomeFantasia" class="form-label">Nome Fantasia <span class="required-mark">*</span></label>
+                                <input type="text" class="form-control" id="editNomeFantasia" placeholder="Ex.: Clínica Exemplo Saúde" required>
+                                <div class="invalid-feedback" id="erro-editNomeFantasia">Informe o nome fantasia.</div>
+                            </div>
+
+                            <div class="campo campo-largo">
+                                <label for="editRazaoSocial" class="form-label">Razão Social <span class="required-mark">*</span></label>
+                                <input type="text" class="form-control" id="editRazaoSocial" placeholder="Ex.: Exemplo Saúde Ltda." required>
+                                <div class="invalid-feedback" id="erro-editRazaoSocial">Informe a razão social.</div>
+                            </div>
+
+                            <div class="campo">
+                                <label for="editCnpj" class="form-label">CNPJ <span class="required-mark">*</span></label>
+                                <input type="text" class="form-control" id="editCnpj" placeholder="00.000.000/0000-00" maxlength="18" required>
+                                <div class="form-text">Formato 00.000.000/0000-00</div>
+                                <div class="invalid-feedback" id="erro-editCnpj">CNPJ inválido. Use o formato 00.000.000/0000-00.</div>
+                            </div>
+
+                            <div class="campo">
+                                <label for="editTelefone" class="form-label">Telefone <span class="required-mark">*</span></label>
+                                <input type="tel" class="form-control" id="editTelefone" placeholder="(00) 0000-0000" maxlength="15">
+                                <div class="invalid-feedback" id="erro-editTelefone">Informe um telefone válido.</div>
+                            </div>
+
+                            <div class="campo campo-largo">
+                                <label for="editEndereco" class="form-label">Endereço completo <span class="required-mark">*</span></label>
+                                <input type="text" class="form-control" id="editEndereco" placeholder="Rua, número, bairro, cidade/UF" required>
+                                <div class="invalid-feedback" id="erro-editEndereco">Informe o endereço completo.</div>
+                            </div>
+                        </div>
+
+                        <!-- Desativar instituição -->
+                        <div class="zona-situacao">
+                            <div class="zona-situacao-texto">
+                                <strong>Situação da instituição</strong>
+                                <small>Ao desativar, a instituição continua cadastrada e passa a constar como Inativa.</small>
+                            </div>
+                            <button type="button" id="btnDesativarInstituicao" class="btn btn-outline-danger btn-com-icone"
+                                    data-bs-toggle="collapse" data-bs-target="#confirmar-desativacao"
+                                    aria-expanded="false" aria-controls="confirmar-desativacao">
+                                <i class="bi bi-slash-circle"></i> Desativar instituição
+                            </button>
+                        </div>
+
+                        <div class="collapse" id="confirmar-desativacao">
+                            <div class="confirmacao-desativacao">
+                                <div class="alert alert-danger confirmacao-alerta" role="alert">
+                                    <p>Tem certeza que deseja desativar <strong id="desativar-nome"></strong>?</p>
+                                    <div class="confirmacao-acoes">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#confirmar-desativacao">Cancelar</button>
+                                        <button type="button" id="btnConfirmarDesativacao" class="btn btn-sm btn-danger">Sim, desativar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary" id="btnSalvarEdicao">Salvar alterações</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
