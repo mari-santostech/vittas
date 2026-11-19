@@ -1,0 +1,452 @@
+:root {
+    --vittas-primary: #0f766e;        /* Verde-petróleo institucional (Saúde) */
+    --vittas-primary-hover: #115e59;
+    --vittas-primary-light: #f0fdfa;
+    --vittas-primary-rgb: 15, 118, 110;
+
+    --vittas-bg: #f8fafc;
+    --vittas-sidebar-bg: #ffffff;
+    --vittas-surface: #ffffff;
+    --vittas-border: #e2e8f0;
+    --vittas-text: #1e293b;
+    --vittas-muted: #64748b;
+    --vittas-menu: #8492a6;           /* cinza claro do menu (texto e ícones) */
+
+    --vittas-success: #15803d;
+    --vittas-success-bg: #f0fdf4;
+    --vittas-success-border: #bbf7d0;
+    --vittas-inactive: #475569;
+    --vittas-inactive-bg: #f1f5f9;
+
+    --sidebar-width: 260px;
+    --content-padding: 2rem;
+    --radius: 0.75rem;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--vittas-bg);
+    color: var(--vittas-text);
+}
+
+/* Página principal */
+.app-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.app-main {
+    flex: 1;
+    min-width: 0;
+    padding: var(--content-padding);
+}
+
+/* Sidebar */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    height: 100vh;
+    padding: 1.5rem 1rem;
+    background-color: var(--vittas-sidebar-bg);
+    border-right: 1px solid var(--vittas-border);
+    top: 0;
+}
+
+.sidebar-marca {
+    padding: 0 0.75rem 1.5rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--vittas-border);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--vittas-primary);
+}
+
+.subtitulo {
+    display: block;
+    margin-top: 2px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--vittas-muted);
+}
+
+/* Links do menu */
+.lista-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.85rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 0.925rem;
+    font-weight: 500;
+    color: var(--vittas-menu);
+    /*transition: all 0.2s ease;*/
+}
+
+.link-menu:hover {
+    background-color: var(--vittas-inactive-bg);
+    color: var(--vittas-text);
+}
+
+.link-menu:focus-visible {
+    outline: 2px solid var(--vittas-primary);
+    outline-offset: 2px;
+}
+
+.link-menu.active {
+    background-color: var(--vittas-primary-light);
+    color: var(--vittas-primary);
+    font-weight: 600;
+}
+
+.ico {
+    font-size: 1.1rem;
+}
+
+/* Rodapé da sidebar */
+
+.sidebar-rodape {
+    padding: 1rem 0 0 0.5rem;
+    border-top: 1px solid var(--vittas-border);
+}
+
+.user-info strong {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--vittas-text);
+}
+
+.user-info small {
+    font-size: 0.75rem;
+    color: var(--vittas-muted);
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0 0 0.5rem;
+    padding: 0;
+    list-style: none;
+    font-size: 0.95rem;
+    color: var(--vittas-muted);
+}
+
+.cabecalho-item + .cabecalho-item::before {
+    content: "/";
+    margin-right: 0.5rem;
+    color: var(--vittas-border);
+}
+
+.cabecalho-item[aria-current="page"] {
+    font-weight: 500;
+    color: var(--vittas-text);
+}
+
+.page-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.titulo-pagina {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Filtros e Tabela */
+
+.card-painel {
+    margin-bottom: 1.5rem;
+    background-color: var(--vittas-surface);
+    border-radius: var(--radius);
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+    overflow: hidden;
+}
+
+.card-painel-corpo {
+    padding: 1.25rem;
+}
+
+/* Filtros */
+
+.filtros {
+    display: grid;
+    grid-template-columns: 1fr;       /* celular: um campo por linha */
+    gap: 1rem;
+    align-items: end;
+}
+
+.filtro-campo {
+    min-width: 0;
+}
+
+.filtro-acoes {
+    display: flex;
+    gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .filtros {
+        grid-template-columns: 6fr 3fr 3fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .filtros {
+        grid-template-columns: 5fr 3fr 4fr;
+    }
+}
+
+.search-icon {
+    background-color: var(--vittas-surface);
+    border-right: 0;
+    color: var(--vittas-muted);
+}
+
+.search-input {
+    border-left: 0;
+}
+
+/* Tabela de instituições */
+
+.table-instituicoes {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.table-instituicoes thead th {
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--vittas-muted);
+}
+
+.table-instituicoes th:first-child,
+.table-instituicoes td:first-child {
+    padding-left: 1.5rem;
+}
+
+.table-instituicoes th:last-child,
+.table-instituicoes td:last-child {
+    padding-right: 1.5rem;
+    text-align: right;
+}
+
+.cell-id {
+    font-weight: 500;
+}
+
+.cell-nome {
+    font-weight: 600;
+}
+
+/* Badge de status */
+
+.badge-status {
+    display: inline-block;
+    padding: 0.3em 0.75em;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.badge-status--ativa {
+    background-color: var(--vittas-success-bg);
+    border-color: var(--vittas-success-border);
+    color: var(--vittas-success);
+}
+
+.badge-status--inativa {
+    background-color: var(--vittas-inactive-bg);
+    border-color: var(--vittas-border);
+    color: var(--vittas-inactive);
+}
+
+/* Modal */
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.campo {
+    min-width: 0;
+}
+
+@media (min-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .campo-largo {
+        grid-column: 1 / -1;     /* ocupa a linha inteira */
+    }
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--vittas-primary);
+    box-shadow: 0 0 0 0.25rem rgba(var(--vittas-primary-rgb), 0.2);
+}
+
+.modal-titulo {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.modal-subtitulo {
+    color: var(--vittas-muted);
+}
+
+.required-mark {
+    color: var(--bs-danger);
+}
+
+.info-edicao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--vittas-border);
+    font-size: 0.875rem;
+}
+
+.info-edicao-id {
+    font-weight: 600;
+}
+
+/* Edição: desativar instituição */
+
+.zona-situacao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--vittas-border);
+}
+
+.zona-situacao-texto strong {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.zona-situacao-texto small {
+    color: var(--vittas-muted);
+}
+
+.confirmacao-desativacao {
+    padding-top: 1rem;
+}
+
+.confirmacao-alerta {
+    margin: 0;
+}
+
+.confirmacao-alerta p {
+    margin-bottom: 0.75rem;
+}
+
+.confirmacao-acoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+/* Botão com ícone + texto */
+.btn-com-icone {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--vittas-primary);
+    --bs-btn-border-color: var(--vittas-primary);
+    --bs-btn-hover-bg: var(--vittas-primary-hover);
+    --bs-btn-hover-border-color: var(--vittas-primary-hover);
+    --bs-btn-active-bg: var(--vittas-primary-hover);
+    --bs-btn-active-border-color: var(--vittas-primary-hover);
+    --bs-btn-disabled-bg: var(--vittas-primary);
+    --bs-btn-disabled-border-color: var(--vittas-primary);
+    --bs-btn-focus-shadow-rgb: var(--vittas-primary-rgb);
+    font-weight: 500;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--vittas-primary);
+    --bs-btn-border-color: var(--vittas-primary);
+    --bs-btn-hover-bg: var(--vittas-primary);
+    --bs-btn-hover-border-color: var(--vittas-primary);
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-active-bg: var(--vittas-primary-hover);
+    --bs-btn-active-border-color: var(--vittas-primary-hover);
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: var(--vittas-primary-rgb);
+}
+
+/* Responsivo: sidebar vira faixa no topo */
+
+@media (max-width: 991.98px) {
+    :root {
+        --content-padding: 1.25rem;
+    }
+
+    .app-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        min-width: 0;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--vittas-border);
+    }
+
+    .lista-menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sidebar-rodape {
+        margin-top: 1rem;
+    }
+}
