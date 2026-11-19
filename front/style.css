@@ -1,0 +1,152 @@
+:root {
+    --vittas-primary: #0f766e;       /* Verde-petróleo institucional (Saúde) */
+    --vittas-primary-hover: #115e59;
+    --vittas-primary-light: #f0fdfa;
+    --vittas-bg: #f8fafc;            /* Fundo cinza-claro limpo */
+    --vittas-sidebar-bg: #ffffff;
+    --vittas-border: #e2e8f0;
+    --vittas-text: #1e293b;
+    --vittas-muted: #64748b;
+    --sidebar-width: 260px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--vittas-bg);
+    color: var(--vittas-text);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Layout Principal & Sidebar (Menu Lateral) */
+
+.app-wrapper {
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    background-color: var(--vittas-sidebar-bg);
+    border-right: 1px solid var(--vittas-border);
+    padding: 1.5rem 1rem;
+    /*position: sticky;*/
+    top: 0;
+    height: 100vh;
+    /*z-index: 100;*/
+}
+
+.sidebar-brand {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+    border-bottom: 1px solid var(--vittas-border);
+    margin-bottom: 1.25rem;
+}
+
+.brand-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--vittas-primary);
+}
+
+.brand-subtitle {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--vittas-muted);
+    margin-top: 2px;
+}
+
+/* Links do Menu Lateral */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.menu li a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.85rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--vittas-muted);
+    font-weight: 500;
+    font-size: 0.925rem;
+    transition: all 0.2s ease;
+}
+
+.menu li a:hover {
+    background-color: #f1f5f9;
+    color: var(--vittas-text);
+}
+
+.menu li a.active {
+    background-color: var(--vittas-primary-light);
+    color: var(--vittas-primary);
+    font-weight: 600;
+}
+
+.menu li a .ico {
+    font-size: 1.1rem;
+}
+
+/* Rodapé da Sidebar */
+.sidebar-footer {
+    border-top: 1px solid var(--vittas-border);
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.user-info strong {
+    font-size: 0.9rem;
+    color: var(--vittas-text);
+}
+
+.user-info small {
+    font-size: 0.75rem;
+}
+
+/*  Área de Conteúdo Principal */
+
+#app-main {
+    flex-grow: 0.5;
+    min-width: 0; /* Evita quebra de layout em tabelas largas */
+}
+
+.breadcrumb {
+    font-size: 0.95rem;
+}
+
+/* Sobrescrita Suave dos Botões */
+
+.btn-primary {
+    background-color: var(--vittas-primary);
+    border-color: var(--vittas-primary);
+    font-weight: 500;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--vittas-primary-hover) !important;
+    border-color: var(--vittas-primary-hover) !important;
+}
+
+.btn-outline-primary {
+    color: var(--vittas-primary);
+    border-color: var(--vittas-primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--vittas-primary);
+    border-color: var(--vittas-primary);
+    color: #ffffff;
+}
