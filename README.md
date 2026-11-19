@@ -1,13 +1,5 @@
 # VITTAS 2.0 – CRUD de Instituições
 
-Integração completa **MySQL ↔ Spring Boot ↔ HTML/CSS/JS (Bootstrap)**.
-
-```
-database/   scripts SQL (estrutura + teste do CRUD)          -> VITTAS-51
-backend/    API REST Java 21 / Spring Boot 4                 -> VITTAS-52 / VITTAS-53
-front/      tela de gerenciamento de instituições            -> VITTAS-55
-```
-
 ## Como executar
 
 ### 1. Banco de dados (MySQL 8)
