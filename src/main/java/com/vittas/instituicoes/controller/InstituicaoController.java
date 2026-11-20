@@ -1,9 +1,10 @@
+
 package com.vittas.instituicoes.controller;
 
-import com.vittas.dto.instituicao.InstituicaoCreateRequest;
-import com.vittas.dto.instituicao.InstituicaoResponse;
-import com.vittas.dto.instituicao.InstituicaoUpdateRequest;
-import com.vittas.service.InstituicaoService;
+import com.vittas.instituicoes.dto.instituicao.InstituicaoCreateRequest;
+import com.vittas.instituicoes.dto.instituicao.InstituicaoResponse;
+import com.vittas.instituicoes.dto.instituicao.InstituicaoUpdateRequest;
+import com.vittas.instituicoes.service.InstituicaoService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -34,7 +35,7 @@ public class InstituicaoController {
     @GetMapping
     public ResponseEntity<Page<InstituicaoResponse>> listar(
             @RequestParam(required = false) String nome,
-            @RequestParam(required = false) Boolean status,
+            @RequestParam(required = false) String status,
             Pageable pageable) {
 
         return ResponseEntity.ok(service.listar(nome, status, pageable));

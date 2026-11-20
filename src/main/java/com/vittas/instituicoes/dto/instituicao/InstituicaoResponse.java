@@ -1,11 +1,15 @@
+
 package com.vittas.instituicoes.dto.instituicao;
 
+import java.time.LocalDateTime;
+
 public record InstituicaoResponse(
-        Long id,
-        String nome,
+        Long idInstituicao,
+        String razaoSocial,
+        String nomeFantasia,
         String cnpj,
         String endereco,
         String telefone,
-        String email,
-        Boolean status
+        String status,
+        LocalDateTime dataCadastro
 ) {}

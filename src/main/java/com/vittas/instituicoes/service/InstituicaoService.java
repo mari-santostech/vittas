@@ -1,12 +1,14 @@
+
 package com.vittas.instituicoes.service;
 
-import com.vittas.dto.instituicao.InstituicaoCreateRequest;
-import com.vittas.dto.instituicao.InstituicaoResponse;
-import com.vittas.dto.instituicao.InstituicaoUpdateRequest;
-import com.vittas.exception.BusinessException;
-import com.vittas.mapper.InstituicaoMapper;
-import com.vittas.model.Instituicao;
-import com.vittas.repository.InstituicaoRepository;
+import com.vittas.instituicoes.dto.instituicao.InstituicaoCreateRequest;
+import com.vittas.instituicoes.dto.instituicao.InstituicaoResponse;
+import com.vittas.instituicoes.dto.instituicao.InstituicaoUpdateRequest;
+import com.vittas.instituicoes.exception.BusinessException;
+import com.vittas.instituicoes.mapper.InstituicaoMapper;
+import com.vittas.instituicoes.model.Instituicao;
+import com.vittas.instituicoes.repository.InstituicaoRepository;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -23,7 +25,10 @@ public class InstituicaoService {
 
     @Transactional
     public InstituicaoResponse criar(InstituicaoCreateRequest request) {
-        if (repository.existsByCnpj(request.cnpj())) {
+
+        String cnpj = request.cnpj().trim();
+
+        if (repository.existsByCnpj(cnpj)) {
             throw new BusinessException(
                     "INSTITUICAO_JA_EXISTE",
                     "Já existe uma instituição com este CNPJ."
@@ -31,23 +36,30 @@ public class InstituicaoService {
         }
 
         Instituicao entity = InstituicaoMapper.toEntity(request);
+
         return InstituicaoMapper.toResponse(repository.save(entity));
     }
 
     @Transactional(readOnly = true)
-    public Page<InstituicaoResponse> listar(String nome, Boolean status, Pageable pageable) {
-        Page<Instituicao> page;
-        boolean temNome = nome != null && !nome.isBlank();
+    public Page<InstituicaoResponse> listar(
+            String nome,
+            String status,
+            Pageable pageable) {
 
-        if (temNome && status != null) {
-            page = repository.findByNomeContainingIgnoreCaseAndStatus(nome.trim(), status, pageable);
-        } else if (temNome) {
-            page = repository.findByNomeContainingIgnoreCase(nome.trim(), pageable);
-        } else if (status != null) {
-            page = repository.findByStatus(status, pageable);
-        } else {
-            page = repository.findAll(pageable);
-        }
+        String filtroNome = nome == null || nome.isBlank()
+                ? null
+                : nome.trim();
+
+        String filtroStatus = status == null || status.isBlank()
+                ? null
+                : status.trim().toUpperCase();
+
+        Page<Instituicao> page =
+                repository.buscarPorNomeOuRazaoSocialEStatus(
+                        filtroNome,
+                        filtroStatus,
+                        pageable
+                );
 
         return page.map(InstituicaoMapper::toResponse);
     }
@@ -58,10 +70,15 @@ public class InstituicaoService {
     }
 
     @Transactional
-    public InstituicaoResponse atualizar(Long id, InstituicaoUpdateRequest request) {
+    public InstituicaoResponse atualizar(
+            Long id,
+            InstituicaoUpdateRequest request) {
+
         Instituicao entity = buscar(id);
 
-        if (repository.existsByCnpjAndIdNot(request.cnpj(), id)) {
+        String cnpj = request.cnpj().trim();
+
+        if (repository.existsByCnpjAndIdInstituicaoNot(cnpj, id)) {
             throw new BusinessException(
                     "INSTITUICAO_JA_EXISTE",
                     "Já existe outra instituição com este CNPJ."
@@ -69,13 +86,16 @@ public class InstituicaoService {
         }
 
         InstituicaoMapper.updateEntity(entity, request);
+
         return InstituicaoMapper.toResponse(repository.save(entity));
     }
 
     @Transactional
     public void excluir(Long id) {
         Instituicao entity = buscar(id);
-        entity.setStatus(false);
+
+        entity.setStatus("INATIVA");
+
         repository.save(entity);
     }
 
